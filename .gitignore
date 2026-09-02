@@ -1,0 +1,24 @@
+# Entorno local y secretos (NUNCA a Git)
+**/.env
+**/secrets.dev.yaml
+**/values.dev.yaml
+
+# Dependencias y archivos generados
+**/node_modules
+**/npm-debug.log
+**/bin
+**/obj
+**/__pycache__
+**/.venv
+**/.toolstarget
+
+# Archivos de configuración de IDE y S.O.
+**/.vscode
+**/.vs
+**/.classpath
+**/.project
+**/.settings
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/.DS_Store

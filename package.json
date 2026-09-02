@@ -1,0 +1,16 @@
+{
+  "name": "docker_anfitrion_a_mysql",
+  "version": "1.0.0",
+  "description": "Conexion de pc anfitrion con contenedor mysql",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.2"
+  }
+}

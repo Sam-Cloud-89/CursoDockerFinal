@@ -1,0 +1,27 @@
+# Archivos del propio repositorio e infraestructura
+**/.git
+**/.gitignore
+**/.dockerignore
+**/Dockerfile*
+**/docker-compose*
+**/compose.y*ml
+README.md
+LICENSE
+
+# Entorno y secretos
+**/.env
+**/secrets.dev.yaml
+**/values.dev.yaml
+
+# Dependencias locales (se descargan/compilan dentro del contenedor)
+**/node_modules
+**/npm-debug.log
+**/bin
+**/obj
+**/__pycache__
+**/.venv
+
+# Archivos de IDE y sistema
+**/.vscode
+**/.vs
+**/.DS_Store
